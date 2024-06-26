@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "power-app-ai-documentation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/powerAppAiDocumentation/PowerAppAiDocumentationWebPart.js",
+          "manifest": "./src/webparts/powerAppAiDocumentation/PowerAppAiDocumentationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PowerAppAiDocumentationWebPartStrings": "lib/webparts/powerAppAiDocumentation/loc/{locale}.js"
+  }
+}

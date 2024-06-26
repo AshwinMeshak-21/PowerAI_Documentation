@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "power-app-ai-documentation-client-side-solution",
+    "id": "04ed8e13-9d74-478f-8b13-c4799185cfda",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PowerApp_AI_Documentation description"
+      },
+      "longDescription": {
+        "default": "PowerApp_AI_Documentation description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "power-app-ai-documentation Feature",
+        "description": "The feature that activates elements of the power-app-ai-documentation solution.",
+        "id": "6d5578ce-c914-4899-a2dd-2ec657f54d02",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/power-app-ai-documentation.sppkg"
+  }
+}

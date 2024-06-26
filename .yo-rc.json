@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "power-app-ai-documentation",
+    "libraryId": "04ed8e13-9d74-478f-8b13-c4799185cfda",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PowerApp_AI_Documentation",
+    "solutionShortDescription": "PowerApp_AI_Documentation description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
